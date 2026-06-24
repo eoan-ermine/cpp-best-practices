@@ -13,6 +13,8 @@
 
 ## LLVM
 
-1. [LLVM Weekly](https://llvmweekly.org/) — еженедельная рассылка про наиболее видные коммиты, новые RFC и прочее.
-2. [Dockerfile для сборки LLVM](https://llvm.org/docs/Docker.html) — не готовые образы, образ надо самостоятельно собрать.
-3. Интеграционные тесты с помощью [lit](https://llvm.org/docs/CommandGuide/lit.html).
+1. **[LLVM Weekly](https://llvmweekly.org/)** — еженедельная рассылка про наиболее видные коммиты, новые RFC и прочее.
+2. **[Dockerfile для сборки LLVM](https://llvm.org/docs/Docker.html)** — не готовые образы, образ надо самостоятельно собрать.
+3. **Интеграционные тесты** с помощью [lit](https://llvm.org/docs/CommandGuide/lit.html).
+4. **[Система отслеживания производительности](https://llvm.org/docs/lnt/)**: регрессий и улучшений. Однако будто довольно вялая: мало машин и довольно редко гоняется.
+5. LLVM имеет **[фаззеры для некоторых проектов](https://llvm.org/docs/FuzzingLLVM.html)**, которые гоняются в CI.
