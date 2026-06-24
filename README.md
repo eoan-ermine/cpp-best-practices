@@ -10,3 +10,9 @@
 6. **[Mailing list](https://lists.haxx.se/listinfo/curl-commits) и [RSS-фид](https://github.com/curl/curl/commits/master.atom)** для новых коммитов.
 7. **Запрет опасных функций** вроде atoi, strncpy, энфорсящийся на этапе сборки [скриптом](https://github.com/curl/curl/blob/master/scripts/checksrc.pl).
 8. **[Ежегодный опрос](https://curl.se/docs/survey/)** пользователей о том, как они пользуются библиотекой: какие фичи используют и т.д.
+
+## LLVM
+
+1. [LLVM Weekly](https://llvmweekly.org/) — еженедельная рассылка про наиболее видные коммиты, новые RFC и прочее.
+2. [Dockerfile для сборки LLVM](https://llvm.org/docs/Docker.html) — не готовые образы, образ надо самостоятельно собрать.
+3. Интеграционные тесты с помощью [lit](https://llvm.org/docs/CommandGuide/lit.html).
